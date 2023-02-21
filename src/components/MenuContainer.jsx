@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { IoFastFood } from "react-icons/io5";
+import { GiRoastChicken } from "react-icons/gi";
 import { categories } from "../utils/data";
 import { motion } from "framer-motion";
 import RowContainer from "./RowContainer";
@@ -43,6 +44,7 @@ const MenuContainer = () => {
                     } group-hover:text-textColor text-lg`}
                   />
                 </div>
+                
                 <p
                   className={`text-sm ${
                     filter === category.urlParamName
