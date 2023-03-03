@@ -100,7 +100,7 @@ const CartContainer = () => {
                 type="button"
                 className="w-full p-2 rounded-full bg-gradient-to-tr from-orange-400 to-orange-600 text-gray-50 text-lg my-2 hover:shadow-lg"
               >
-                Check Out
+                <a href="https://razorpay.com/docs/build/browser/assets/images/web-integration-checkout-new.jpg">Check Out</a>
               </motion.button>
             ) : (
               <motion.button

@@ -67,17 +67,12 @@ const Header = () => {
             exit={{ opacity: 0, x: 200 }}
             className="flex items-center gap-24 "
           >
+            
             <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
-              Home
+            <a href="https://drive.google.com/file/d/1-6sqk9KBpRm9cjln6z6i2VirIurAraCI/view?usp=share_link">About Us</a>
             </li>
             <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
-              Menu
-            </li>
-            <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
-              About Us
-            </li>
-            <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
-              Service
+              <a href="https://mlrit.ac.in/">MLRIT.com</a>
             </li>
           </motion.ul>
 
