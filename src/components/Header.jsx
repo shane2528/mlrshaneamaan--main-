@@ -176,29 +176,24 @@ const Header = () => {
               )}
 
               <ul className="flex flex-col ">
-                <li
+              <li
                   className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2"
                   onClick={() => setIsMenu(false)}
-                >
-                  Home
+                ><a href="https://drive.google.com/file/d/1-6sqk9KBpRm9cjln6z6i2VirIurAraCI/view?usp=share_link">About Us</a>
+                  
                 </li>
                 <li
                   className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2"
                   onClick={() => setIsMenu(false)}
                 >
-                  Menu
+                  <a href="https://goo.gl/maps/huwBq62aDQfx8q6u8">Contact Canteen</a>
+
                 </li>
                 <li
                   className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2"
                   onClick={() => setIsMenu(false)}
                 >
-                  About Us
-                </li>
-                <li
-                  className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2"
-                  onClick={() => setIsMenu(false)}
-                >
-                  Service
+                  <a href="https://mlrit.ac.in/">Visit College Website</a>
                 </li>
               </ul>
 
