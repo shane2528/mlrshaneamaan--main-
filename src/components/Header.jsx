@@ -69,18 +69,6 @@ const Header = () => {
             className="flex items-center gap-20 "
           >
             <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
-<<<<<<< Updated upstream
-             Home
-            </li>
-            <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
-              Menu
-            </li>
-            <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
-              About Us
-            </li>
-            <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
-              Service
-=======
             <a href="https://drive.google.com/file/d/1-6sqk9KBpRm9cjln6z6i2VirIurAraCI/view?usp=share_link">About Us</a>
 
             </li>
@@ -88,8 +76,7 @@ const Header = () => {
               <a href="https://mlrit.ac.in/">Visit College Website</a>
             </li>
             <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
-            <a href="https://goo.gl/maps/huwBq62aDQfx8q6u8">Canteen Location</a>
->>>>>>> Stashed changes
+            <a href="https://goo.gl/maps/huwBq62aDQfx8q6u8"> Contact Canteen</a>
             </li>
           </motion.ul>
 
@@ -206,7 +193,7 @@ const Header = () => {
                   className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2"
                   onClick={() => setIsMenu(false)}
                 >
-                  <a href="https://goo.gl/maps/huwBq62aDQfx8q6u8">Canteen Location</a>
+                  <a href="https://goo.gl/maps/huwBq62aDQfx8q6u8">Contact Canteen</a>
 
                 </li>
                 <li
