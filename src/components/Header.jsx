@@ -10,6 +10,7 @@ import Avatar from "../img/avatarmain.png";
 import { Link } from "react-router-dom";
 import { useStateValue } from "../context/StateProvider";
 import { actionType } from "../context/reducer";
+import AU from "/Users/rafathamaan/Documents/GitHub/shaneamaancanteen/src/img/AU.jpeg";
 
 const Header = () => {
   const firebaseAuth = getAuth(app);
@@ -60,14 +61,15 @@ const Header = () => {
           <p className="text-headingColor text-xl font-bold"> DIGITAL CANTEEN</p>
         </Link>
 
-        <div className="flex items-center gap-8">
+        <div className="flex items-center gap-20">
           <motion.ul
             initial={{ opacity: 0, x: 200 }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: 200 }}
-            className="flex items-center gap-24 "
+            className="flex items-center gap-20 "
           >
             <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
+<<<<<<< Updated upstream
              Home
             </li>
             <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
@@ -78,6 +80,16 @@ const Header = () => {
             </li>
             <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
               Service
+=======
+            <a href="https://drive.google.com/file/d/1-6sqk9KBpRm9cjln6z6i2VirIurAraCI/view?usp=share_link">About Us</a>
+
+            </li>
+            <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
+              <a href="https://mlrit.ac.in/">Visit College Website</a>
+            </li>
+            <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
+            <a href="https://goo.gl/maps/huwBq62aDQfx8q6u8">Canteen Location</a>
+>>>>>>> Stashed changes
             </li>
           </motion.ul>
 
@@ -182,25 +194,26 @@ const Header = () => {
                   className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2"
                   onClick={() => setIsMenu(false)}
                 >
-                  Home
+                 
+                </li>
+                <li
+                  className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2"
+                  onClick={() => setIsMenu(false)}
+                ><a href="https://drive.google.com/file/d/1-6sqk9KBpRm9cjln6z6i2VirIurAraCI/view?usp=share_link">About Us</a>
+                  
                 </li>
                 <li
                   className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2"
                   onClick={() => setIsMenu(false)}
                 >
-                  Menu
+                  <a href="https://goo.gl/maps/huwBq62aDQfx8q6u8">Canteen Location</a>
+
                 </li>
                 <li
                   className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2"
                   onClick={() => setIsMenu(false)}
                 >
-                  About Us
-                </li>
-                <li
-                  className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2"
-                  onClick={() => setIsMenu(false)}
-                >
-                  Service
+                  <a href="https://mlrit.ac.in/">Visit College Website</a>
                 </li>
               </ul>
 
