@@ -72,7 +72,14 @@ const Header = () => {
             <a href="https://drive.google.com/file/d/1-6sqk9KBpRm9cjln6z6i2VirIurAraCI/view?usp=share_link">About Us</a>
             </li>
             <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
+<<<<<<< Updated upstream
               <a href="https://mlrit.ac.in/">MLRIT.com</a>
+=======
+              <a href="https://mlrit.ac.in/">Visit College Website</a>
+            </li>
+            <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
+            <a href="https://goo.gl/maps/huwBq62aDQfx8q6u8">Canteen Location</a>
+>>>>>>> Stashed changes
             </li>
           </motion.ul>
 
