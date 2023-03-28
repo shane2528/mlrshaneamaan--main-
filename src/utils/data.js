@@ -1,35 +1,35 @@
-import biryani from "../img/Biriyani.png";
-import bread from "../img/Bread Omlette.png";
-import dosa from "../img/Dosa.png";
-import frankie from "../img/frankie.png";
+import biryani from "../img/removal.ai_tmp-64230170a6481.png";
+import bread from "../img/combiflan.png";
+import dosa from "../img/cetaphila.png";
+import frankie from "../img/lacto.png";
 
 export const heroData = [
   {
     id: 1,
-    name: "Biryani",
-    decp: "Chicken Dum biryani",
-    price: "200",
+    name: "Ibuprofen",
+    
+    price: "70",
     imageSrc: biryani,
   },
   {
     id: 2,
-    name: "Bread Omlette",
-    decp: "Fresh eggs",
+    name: "Combiflan",
+    
     price: "35",
     imageSrc: bread,
   },
   {
     id: 3,
-    name: "70mm Dosa",
-    decp: "Fresh Chutney",
-    price: "40",
+    name: "Cetaphil",
+    
+    price: "600",
     imageSrc: dosa,
   },
   {
     id: 4,
-    name: "Frankie",
-    decp: "Extra Cheese",
-    price: "70-80",
+    name: "Lacto",
+    
+    price: "300",
     imageSrc: frankie,
   },
 ];
@@ -37,29 +37,29 @@ export const heroData = [
 export const categories = [
   {
     id: 1,
-    name: "Non-Veg",
-    urlParamName: "Non-Veg",
+    name: "Antibiotics",
+    urlParamName: "Antibiotics",
   },
   {
     id: 2,
-    name: "Veg",
-    urlParamName: "Veg",
+    name: "Painkillers",
+    urlParamName: "Painkillers",
   },
   {
     id: 3,
-    name: "Tiffins",
-    urlParamName: "Tiffins",
+    name: "Tonics",
+    urlParamName: "Tonics",
   },
    
   {
     id: 6,
-    name: "Icecreams",
-    urlParamName: "icecreams",
+    name: "Ointments",
+    urlParamName: "Ointments",
   },
 
   {
     id: 7,
-    name: "Soft Drinks",
-    urlParamName: "drinks",
+    name: "Bodycare",
+    urlParamName: "Bodycare",
   },
 ];

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 import { app } from "../firebase.config";
 
-import Logo from "../img/logo2.png";
+import Logo from "../img/Screenshot_55.png";
 import Avatar from "../img/avatarmain.png";
 import { Link } from "react-router-dom";
 import { useStateValue } from "../context/StateProvider";
@@ -57,27 +57,11 @@ const Header = () => {
       <div className="hidden md:flex w-full h-full items-center justify-between">
         <Link to={"/"} className="flex items-center gap-2">
           <img src={Logo} className="w-28 object-cover" alt="logo" />
-          <p className="text-headingColor text-xl font-bold"> DIGITAL CANTEEN</p>
+          <p className="text-headingColor text-xl font-bold"> MEDICLOUD</p>
         </Link>
 
         <div className="flex items-center gap-8">
-          <motion.ul
-            initial={{ opacity: 0, x: 200 }}
-            animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: 200 }}
-            className="flex items-center gap-24 "
-          >
-            
-            <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
-            <a href="https://drive.google.com/file/d/1-6sqk9KBpRm9cjln6z6i2VirIurAraCI/view?usp=share_link">About Us</a>
-            </li>
-            <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
-              <a href="https://mlrit.ac.in/">Visit College Website</a>
-            </li>
-            <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
-            <a href="https://goo.gl/maps/huwBq62aDQfx8q6u8">Contact Canteen</a>
-            </li>
-          </motion.ul>
+          
 
           <div
             className="relative flex items-center justify-center"

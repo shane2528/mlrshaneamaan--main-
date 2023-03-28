@@ -12,21 +12,19 @@ const HomeContainer = () => {
       <div className="py-2 flex-1 flex flex-col items-start justify-center gap-6">
         <div className="flex items-center gap-2 justify-center bg-orange-100 px-4 py-1 rounded-full">
           <p className="text-base text-orange-500 font-semibold">
-          Take Away Only
+          Online Pharmacy
           </p>
           
         </div>
 
         <p className="text-[2.5rem] lg:text-[4.5rem] font-bold tracking-wide text-headingColor">
-          Making Canteens
+          Medicloud Pharmacy
     
-          <span className="text-orange-600 text-[3rem] lg:text-[5rem]">
-            -Smart
-          </span>
+          
         </p>
 
         <p className="text-base text-textColor text-center md:text-left md:w-[80%]">
-          Welcome to MLRIT's digital canteen. Here you can find all the menu items ready to be ordered right away or even scheduled(for Pick-Up)
+          Welcome to Medicloud Online Pharmacy. Here you can find all the desired medications ready to be ordered right away.
         </p>
 
         <button

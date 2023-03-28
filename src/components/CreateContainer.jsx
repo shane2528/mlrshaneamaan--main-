@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 
 import {
-  MdFastfood,
+  MdOutlineMedicalServices,
   MdCloudUpload,
   MdDelete,
   MdFoodBank,
@@ -163,7 +163,7 @@ const CreateContainer = () => {
         )}
 
         <div className="w-full py-2 border-b border-gray-300 flex items-center gap-2">
-          <MdFastfood className="text-xl text-gray-700" />
+          <MdOutlineMedicalServices className="text-xl text-gray-700" />
           <input
             type="text"
             required
